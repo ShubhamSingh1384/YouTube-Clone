@@ -12,7 +12,7 @@ import profile from "../../public/images/profile.jpg"
 const Navbar = () => {
   return (
     <>
-    <div className='flex justify-between fixed top-0 w-[100%] bg-white px-6 py-2'>
+    <div className='flex justify-between fixed top-0 w-[100%] bg-white px-6 py-2 z-50'>
         <div className='flex items-center space-x-4 '>
             <div className='text-xl cursor-pointer'>
                 <IoIosMenu size={20} />
@@ -26,7 +26,7 @@ const Navbar = () => {
             <div className=' w-[100%] px-4 py-2 border-[1px] border-gray-400 rounded-l-full'>
                 <input className='outline-none' type="text" placeholder='Search'/>
             </div>
-            <div className='px-4 py-2 border-[1px] border-gray-400 bg-gray-100 rounded-r-full'>
+            <div className='px-4 py-[10px] border-[1px] border-gray-400 bg-gray-100 rounded-r-full'>
                 <CiSearch size={20} />
             </div>
             <div className='ml-3 border border-gray-600 rounded-full p-2 cursor-pointer hover:bg-gray-200 duration-200'>

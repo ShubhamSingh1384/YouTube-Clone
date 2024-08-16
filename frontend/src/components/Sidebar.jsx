@@ -156,7 +156,7 @@ const Sidebar = () => {
 
   return(
     <>
-        <div className="px-6 mt-[60px] overflow-y-scroll overflow-x-hidden ">
+        <div className="max-h-screen px-6 mt-[60px] overflow-y-scroll overflow-x-hidden w-[50%]">
             <div className="space-y-5 mb-5">
                 {
                     sidebarItems1.map((item)=>(
