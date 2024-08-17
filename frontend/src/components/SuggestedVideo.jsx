@@ -5,7 +5,7 @@ import { BsFillCheckCircleFill } from "react-icons/bs";
 import { abbreviateNumber } from "js-abbreviation-number";
 
 function SuggestedVideo({ video }) {
-  console.log(video);
+  // console.log(video);
   return (
     <div>
       <Link to={`/video/${video?.videoId}`}>
